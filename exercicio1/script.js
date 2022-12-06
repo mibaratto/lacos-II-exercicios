@@ -5,3 +5,15 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for(let i =0; i < array.length; i++){
+    let gols = 0;
+    console.log(`Jogador ${i +1}: ${array[i]}`)
+   
+    for(let j = 0; j < array[i].length; j++) {
+        console.log(array[i][j])
+    }
+    console.log(`${gols}`)
+}
+
+
